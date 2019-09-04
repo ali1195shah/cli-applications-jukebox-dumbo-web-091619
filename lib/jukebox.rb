@@ -30,7 +30,7 @@ def help
 end
 
 def list(array)
-  new_arr = []
+  # new_arr = []
   array.each_with_index do |song, idx|
     puts "#{idx + 1}. #{song}"
   end
