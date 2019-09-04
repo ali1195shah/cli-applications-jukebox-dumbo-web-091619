@@ -73,7 +73,7 @@ def run(songs)
       input = gets.chomp
     else
       puts "Invalid command"
-      help()
+      help
       puts "Please enter a command:"
       input = gets.chomp
     end
